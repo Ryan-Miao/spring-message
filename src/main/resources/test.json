@@ -1,0 +1,32 @@
+{
+  "Property Update": {
+    "Language__c": "a0VC00000039gusMAA",
+    "priority": "3",
+    "Type": "Property Details",
+    "description": "Change request type: Property Details\nProperty name: Arlington Court Suites, a Clarion Collection Hotel3333333\nBrand name: Citotel\nPhone number: 1703524400033333\nFax number: 17035226814333333\nRequestor Name: AdminTest Hot Sys Mgmt\nRequestor Email: v-tzeng@expedia.com\n",
+    "origin": "EPC",
+    "subject": "EID 6606/Gold/en-US",
+    "AccountId": "001C000000ppGlwIAE",
+    "SuppliedName": "AdminTest Hot Sys Mgmt",
+    "Content_type__c": "Gold",
+    "RecordTypeId": "01254000000CiWZAA0",
+    "Prevent_contact_lookup__c": "true",
+    "SuppliedEmail": "v-tzeng@expedia.com",
+    "Case_Category__c": ""
+  },
+  "HDM": {
+    "Language__c": "a0VC00000039gusMAA",
+    "priority": "3",
+    "Type": "Property Description / Amenities",
+    "description": "Change request type: Property Details\nBrand name: CitizenM Hotels\nPhone number: 170352440003333\nFax number: 17035226814333333\nRequestor Name: AdminTest Hot Sys Mgmt\nRequestor Email: v-tzeng@expedia.com\n",
+    "origin": "EPC",
+    "subject": "EID 6606/Gold/en-US",
+    "AccountId": "001C000000ppGlwIAE",
+    "SuppliedName": "AdminTest Hot Sys Mgmt",
+    "Content_type__c": "Gold",
+    "RecordTypeId": "012C00000004XOuIAM",
+    "Prevent_contact_lookup__c": "true",
+    "SuppliedEmail": "v-tzeng@expedia.com",
+    "Case_Category__c": "Property Amenities"
+  }
+}

@@ -1,0 +1,2 @@
+#??listener
+#org.springframework.context.ApplicationListener=com.test.MyListener

@@ -1,0 +1,56 @@
+# yml是json的超集
+# 记得空格：空格声明变量，-空格声明成员,---声明开始
+---
+bean:
+  desc : id_myBean
+  birth: 1991
+  username: test
+---
+bean2:
+  username: id_bean2
+  birth: 1992
+
+---
+my:
+      desc: test multi
+      servers:
+           - dev.bar.com
+           - foo.bar.com
+           - 苗
+           - 测试
+      properties:
+          location: classpath
+          files:
+              - application.yml
+              - application.properties
+              - application-default.properties
+
+---
+language:
+  ids:
+    - 1033: English US
+    - 2057: English UK
+    - 3082: Español
+    - 1040: Italiano
+    - 1036: Français
+    - 1031: Deutsch
+    - 1041: 日本語
+    - 2052: 中文
+    - 1028: 中文 (台灣)
+    - 1043: Nederlands
+    - 1053: Svenska
+    - 1044: norsk, bokmål (Norge)
+    - 1055: Türkçe
+    - 2070: Português (Portugal)
+    - 1046: Português (Brasileiro)
+    - 1030: Dansk
+    - 1042: 한국어
+    - 1045: polski
+    - 1032: Ελληνικά
+    - 1049: Русский
+    - 1066: Tiếng Việt
+    - 1029: Čeština
+    - 1054: ภาษาไทย
+    - 1038: magyar
+    - 1035: suomi
+    - 1050: hrvatski
