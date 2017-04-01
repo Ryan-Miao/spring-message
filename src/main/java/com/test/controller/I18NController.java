@@ -67,4 +67,23 @@ public class I18NController {
         return map;
     }
 
+    /**
+     * Test how the spring handle default properties,
+     * That is if zh_CN does not has, how to get default.
+     * @param locale
+     * @param code
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "default", method = RequestMethod.GET)
+    public Map defaultMessageFile(Locale locale, String code){
+        Map map = new HashMap();
+
+        String msg = messageSource.getMessage(code, null, locale);
+        map.put("test", msg);
+
+
+        return map;
+    }
+
 }
