@@ -41,7 +41,7 @@ public class ResourceFormat extends ResourceBundleMessageSource {
 
         MessageFormat messageFormat = super.resolveCode(code, locale);
         if (messageFormat == null ){
-            LOGGER.info("Not found the key in zh_CN.");
+            LOGGER.warn("Not found the key in {}. Change to en_US", locale);
 
             messageFormat = super.resolveCode(code, Locale.US);
         }
